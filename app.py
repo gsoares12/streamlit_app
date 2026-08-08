@@ -32,7 +32,7 @@ with col2:
         st.write("Painel interativo focado no acompanhamento de KPIs de alarmes gerados em sensores IoT.")
         
         # Inserindo a imagem local do seu projeto
-        st.image(r"C:\Users\Guilherme Soares\Pictures\Screenshots\exemplo_01.png", caption="Pré-visualização do Dashboard de Alarmes", use_container_width=True)
+        st.image(r".\img\exemplo_01.png", caption="Pré-visualização do Dashboard de Alarmes", use_container_width=True)
         
         # st.markdown("[Ver projeto interativo](https://novypro.com)")
      
