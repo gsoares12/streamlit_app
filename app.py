@@ -4,9 +4,9 @@ import streamlit as st
 st.set_page_config(page_title="Meu Portfólio de Dados", page_icon="💼", layout="wide")
 
 # Cabeçalho / Perfil
-st.title("João Silva")
-st.subheader("Engenheiro de Dados & Especialista em BI")
-st.write("📍 São Paulo, Brasil | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)")
+st.title("Guilherme Soares")
+st.subheader("Engenheiro de Dados")
+st.write("Belo Horizonte, Brasil | [LinkedIn](www.linkedin.com/in/guilherme-henrique-soares-343481197) | [GitHub](https://github.com/gsoares12)")
 
 st.divider()
 
@@ -15,9 +15,9 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.header("🛠️ Habilidades")
-    st.markdown("- **Linguagens:** Python, SQL")
-    st.markdown("- **BI:** Power BI, Looker, Tableau")
-    st.markdown("- **Engenharia:** Apache Airflow, BigQuery, dbt")
+    st.markdown("- **Linguagens:** Python, SQL, APIs, Bash, PowerShell, HTML, CSS")
+    st.markdown("- **BI:** Power BI,")
+    st.markdown("- **Engenharia:** Apache Airflow, BigQuery, Docker, Git, CI/CD, ")
 
 with col2:
     st.header("🚀 Projetos em Destaque")
@@ -28,6 +28,11 @@ with col2:
         st.markdown("[Ver código no GitHub](https://github.com)")
         
     # Projeto 2
-    with st.expander("Dashboard de Performance de Vendas"):
-        st.write("Painel interativo focado no acompanhamento de KPIs de receita.")
-        st.markdown("[Ver projeto interativo](https://novypro.com)")
+    with st.expander("Dashboard de Alarmes gerados por sensores IoT"):
+        st.write("Painel interativo focado no acompanhamento de KPIs de alarmes gerados em sensores IoT.")
+        
+        # Inserindo a imagem local do seu projeto
+        st.image(r"C:\Users\Guilherme Soares\Pictures\Screenshots\exemplo_01.png", caption="Pré-visualização do Dashboard de Alarmes", use_container_width=True)
+        
+        # st.markdown("[Ver projeto interativo](https://novypro.com)")
+     
